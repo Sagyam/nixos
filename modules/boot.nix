@@ -1,15 +1,11 @@
 { config, pkgs, ... }:
 
 {
-  boot.loader.grub = {
-    enable = true;
-    device = "nodev";
-    efiSupport = true;
-    useOSProber = true;
-    gfxmodeEfi = "1920x1080";
-  };
+  boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
-  boot.loader.timeout = 5;
+
+  # Reduce bootloader timeout so Plymouth shows faster
+  boot.loader.timeout = 1;
 
   boot.plymouth = {
     enable = true;
@@ -19,7 +15,7 @@
       [Daemon]
       Theme=nixos-bgrt
       ShowDelay=0
-      DeviceTimeout=5
+      DeviceTimeout=3
     '';
   };
 
