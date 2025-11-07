@@ -36,18 +36,9 @@
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
-  nixpkgs.config.permittedInsecurePackages = [
-    "qtwebengine-5.15.19"
-  ];
 
   # Enable flatpak support
   services.flatpak.enable = true;
-
-  # Configure GRUB theme
-  distro-grub-themes = {
-    enable = true;
-    theme = "nixos";  # Options: arch, debian, fedora, kali, manjaro, nixos, pop, ubuntu, windows
-  };
 
 
   # Enable garbage collection

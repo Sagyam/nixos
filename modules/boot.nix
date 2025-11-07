@@ -3,9 +3,7 @@
 {
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
-
-  # Reduce bootloader timeout so Plymouth shows faster
-  boot.loader.timeout = 1;
+  boot.loader.timeout = 5;
 
   boot.plymouth = {
     enable = true;
