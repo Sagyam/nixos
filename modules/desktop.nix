@@ -7,12 +7,12 @@
 
   # X11 and GNOME desktop
   services.xserver.enable = true;
-  services.displayManager.gdm = {
+  services.xserver.displayManager.gdm = {
     enable = true;
     wayland = true;
   };
 
-  services.desktopManager.gnome.enable = true;
+  services.xserver.desktopManager.gnome.enable = true;
 
   # Ensure GDM waits for Plymouth to finish
   systemd.services.display-manager.wants = [ "plymouth-quit.service" ];
