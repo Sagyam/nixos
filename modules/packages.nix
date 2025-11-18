@@ -66,7 +66,6 @@
     nerdfetch
     papers
     pciutils
-    qbittorrent
     qemu
     ripgrep
     rustc
