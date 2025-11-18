@@ -7,12 +7,6 @@
   # Starship prompt
   programs.starship = {
     enable = true;
-   settings = builtins.fromTOML (builtins.readFile (
-    pkgs.fetchurl {
-      url = "https://starship.rs/presets/toml/pastel-powerline.toml";
-      sha256 = "9ljlFPr9IkQ1Ri1Y29EMj4qMHeW1FV3ltq7spenC+mc=";
-    }
-  ));
   };
 
   # Zsh configuration
