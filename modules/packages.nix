@@ -35,7 +35,6 @@
     git
     gnome-decoder
     gnome-graphs
-    gnome-podcasts
     gnomeExtensions.bluetooth-battery-meter
     gnomeExtensions.clipboard-indicator
     gnomeExtensions.tiling-shell
@@ -47,7 +46,6 @@
     httpie
     intel-one-mono
     iotas
-    jetbrains-toolbox
     jetbrains.goland
     jetbrains.rust-rover
     jetbrains.webstorm
