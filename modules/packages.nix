@@ -65,11 +65,10 @@
     papers
     pciutils
     qemu
+    reddit-tui
     ripgrep
     rustc
     share-preview
-    sql-studio
-    stremio
     switcheroo
     systemctl-tui
     terraform

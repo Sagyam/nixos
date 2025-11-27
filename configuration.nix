@@ -1,23 +1,7 @@
 { config, pkgs, ... }:
 
 {
-  imports = [
-    ./hardware-configuration.nix
-    ./modules/blocky.nix
-    ./modules/boot.nix
-    ./modules/desktop.nix
-    ./modules/hardware.nix
-    ./modules/networking.nix
-    ./modules/packages.nix
-    ./modules/programs.nix
-    ./modules/services.nix
-    ./modules/study-lock.nix
-    ./modules/study-schedule.nix
-    ./modules/users.nix
-    ./modules/virtualisation.nix
-  ];
-
-  # --- Study Schedule Configuration (Single Source of Truth) ---
+  # Study Schedule Configuration (Single Source of Truth)
   studySchedule = {
     enable = true;
     windows = [
@@ -30,16 +14,35 @@
   # Enable Flakes support
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
-  # Update system automatically
-  system.autoUpgrade.enable = true;
-  system.autoUpgrade.allowReboot = false;
+  # Cachix binary caches for Vicinae
+  nix.settings = {
+    substituters = [
+      "https://cache.nixos.org"
+      "https://vicinae.cachix.org"
+    ];
 
-  # Allow unfree packages
-  nixpkgs.config.allowUnfree = true;
+    trusted-public-keys = [
+      "vicinae.cachix.org-1:1kDrfienkGHPYbkpNj1mWTr7Fm1+zcenzgTizIcI3oc="
+    ];
+  };
+
+  # Update system automatically
+  system.autoUpgrade = {
+    enable = true;
+    allowReboot = false;
+    flake = "path:/etc/nixos";
+  };
+
+  # Allow unfree packages and insecure packages
+  nixpkgs.config = {
+    allowUnfree = true;
+    permittedInsecurePackages = [
+      # "qtwebengine-5.15.19"
+    ];
+  };
 
   # Enable flatpak support
   services.flatpak.enable = true;
-
 
   # Enable garbage collection
   nix.gc = {
@@ -49,5 +52,5 @@
   };
 
   # Version of the NixOS system
-  system.stateVersion = "25.05";
+  system.stateVersion = "25.11";
 }
