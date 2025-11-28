@@ -4,6 +4,7 @@
   # Packages for sagyam user
    users.users.sagyam = {
    packages = with pkgs; [
+    antigravity
     aria2
     atuin
     audiobookshelf
@@ -35,6 +36,7 @@
     git
     gnome-decoder
     gnome-graphs
+    gnomeExtensions.speed-buzz-internet-speed-meter
     gnomeExtensions.bluetooth-battery-meter
     gnomeExtensions.clipboard-indicator
     gnomeExtensions.tiling-shell
