@@ -7,11 +7,11 @@
     settings = {
       # Font configuration
       font-family = "Intel One Mono";
-      font-size = 17;
+      font-size = 16;
 
       # Window appearance
-      background-opacity = 0.80;
-      background-blur = 50;
+      background-opacity = 0.8;
+      background-blur = 100;
       alpha-blending = "native";
       maximize = true;
 
