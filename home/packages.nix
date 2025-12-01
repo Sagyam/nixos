@@ -65,6 +65,7 @@
     varia
 
     # GNOME extensions
+    gnomeExtensions.speed-buzz-internet-speed-meter
     gnomeExtensions.bluetooth-battery-meter
     gnomeExtensions.clipboard-indicator
     gnomeExtensions.tiling-shell
@@ -115,5 +116,11 @@
     sql-studio
     systemctl-tui
     tor-browser
+
+    # Experimental
+    gemini-cli
+    antigravity
+    claude-code
+    claude-monitor
   ];
 }
