@@ -4,7 +4,6 @@
   # Packages for sagyam user
    users.users.sagyam = {
    packages = with pkgs; [
-    antigravity
     aria2
     atuin
     audiobookshelf
@@ -101,6 +100,12 @@
     fuse-overlayfs
     bubblewrap
     dwarfs
+
+    # Experimental
+    gemini-cli
+    antigravity
+    claude-code
+    claude-monitor
   ];
   };
 
