@@ -97,11 +97,6 @@
     wineWowPackages.full
     protontricks
 
-    # Mini metro related packages
-    fuse-overlayfs
-    bubblewrap
-    dwarfs
-
     # Experimental
     gemini-cli
     antigravity
