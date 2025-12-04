@@ -33,14 +33,6 @@
     flake = "path:/etc/nixos";
   };
 
-  # Allow unfree packages and insecure packages
-  nixpkgs.config = {
-    allowUnfree = true;
-    permittedInsecurePackages = [
-      "qtwebengine-5.15.19"
-    ];
-  };
-
   # Enable flatpak support
   services.flatpak.enable = true;
 
