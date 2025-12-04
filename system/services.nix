@@ -1,6 +1,6 @@
 { config, pkgs, ... }:
 
 {
-  # GPG smart card daemon
-  services.pcscd.enable = true;
+  # Experimental browser
+  programs.ladybird.enable = true;
 }
