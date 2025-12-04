@@ -52,11 +52,9 @@
     # GNOME applications
     authenticator
     ente-auth
-    errands
     fragments
     gnome-decoder
     gnome-graphs
-    iotas
     mission-center
     papers
     share-preview
