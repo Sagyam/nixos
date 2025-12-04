@@ -37,7 +37,7 @@
   nixpkgs.config = {
     allowUnfree = true;
     permittedInsecurePackages = [
-      # "qtwebengine-5.15.19"
+      "qtwebengine-5.15.19"
     ];
   };
 

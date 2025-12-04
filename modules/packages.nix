@@ -70,6 +70,7 @@
     ripgrep
     rustc
     share-preview
+    stremio
     switcheroo
     systemctl-tui
     terraform
