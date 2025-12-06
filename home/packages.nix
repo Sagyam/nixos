@@ -63,7 +63,7 @@
     varia
 
     # GNOME extensions
-    gnomeExtensions.speed-buzz-internet-speed-meter
+    gnomeExtensions.internet-speed-meter
     gnomeExtensions.bluetooth-battery-meter
     gnomeExtensions.clipboard-indicator
     gnomeExtensions.tiling-shell

@@ -33,6 +33,8 @@
     flake = "path:/etc/nixos";
   };
 
+  nixpkgs.config.allowUnfree = true;
+
   # Enable flatpak support
   services.flatpak.enable = true;
 
