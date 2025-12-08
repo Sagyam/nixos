@@ -2,13 +2,15 @@
 
 {
   home.packages = with pkgs; [
+    # Browser
+    ungoogled-chromium
+
     # Development tools
     aria2
     atuin
     azure-cli
     bandwhich
     bat
-    brave
     btop
     cargo
     curl
