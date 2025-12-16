@@ -97,6 +97,9 @@
     # Container tools
     qemu
 
+    #Ollama
+    ollama
+
     # Gaming
     winetricks
     wineWowPackages.full
