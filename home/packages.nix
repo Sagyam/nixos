@@ -77,9 +77,7 @@
     nerd-fonts.symbols-only
 
     # Development environments
-    jetbrains.goland
-    jetbrains.rust-rover
-    jetbrains.webstorm
+    jetbrains-toolbox
 
     # Node.js ecosystem
     nodejs_24
