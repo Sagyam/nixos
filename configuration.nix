@@ -5,14 +5,15 @@
   studySchedule = {
     enable = true;
     windows = [
-      # { name = "morning"; start = "10:00"; end = "11:30"; warnAt = "09:55"; }
-      # { name = "afternoon"; start = "14:00"; end = "16:00"; warnAt = "13:55"; }
-      # { name = "evening"; start = "19:00"; end = "21:00"; warnAt = "18:55"; }
+      # { name = "morning"; start = "9:00"; end = "12:00"; warnAt = "08:55"; }
+      # { name = "afternoon"; start = "16:00"; end = "18:00"; warnAt = "15:55"; }
+      # { name = "evening"; start = "20:00"; end = "22:00"; warnAt = "19:55"; }
     ];
   };
 
   # Enable Flakes support
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
+
 
   # Cachix binary caches for Vicinae
   nix.settings = {

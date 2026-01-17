@@ -16,7 +16,7 @@
     curl
     diff-so-fancy
     docker
-    dogdns
+    doggo
     dua
     duf
     eza
@@ -123,5 +123,6 @@
     antigravity
     claude-code
     claude-monitor
+    opencode
   ];
 }
