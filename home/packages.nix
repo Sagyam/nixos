@@ -4,6 +4,8 @@
   home.packages = with pkgs; [
     # Browser
     ungoogled-chromium
+    firefox
+    tor-browser
 
     # Development tools
     aria2
@@ -21,7 +23,6 @@
     duf
     eza
     fastfetch
-    firefox
     fzf
     gcc
     gh
@@ -47,7 +48,6 @@
     zsh
 
     # System utilities
-    ddcutil
     dmidecode
     pciutils
 
@@ -56,7 +56,6 @@
     ente-auth
     fragments
     gnome-decoder
-    gnome-graphs
     mission-center
     papers
     share-preview
@@ -80,10 +79,7 @@
     jetbrains-toolbox
 
     # Node.js ecosystem
-    nodejs_24
-    pnpm
     bun
-    deno
 
     # Kubernetes tools
     k9s
@@ -113,16 +109,12 @@
 
     # Utilities
     nerdfetch
-    reddit-tui
     sql-studio
     systemctl-tui
-    tor-browser
+
 
     # Experimental
-    gemini-cli
-    antigravity
     claude-code
-    claude-monitor
     opencode
   ];
 }
