@@ -5,9 +5,9 @@
   studySchedule = {
     enable = true;
     windows = [
-      # { name = "morning"; start = "9:00"; end = "12:00"; warnAt = "08:55"; }
+      # { name = "morning"; start = "9:00"; end = "11:00"; warnAt = "08:55"; }
       # { name = "afternoon"; start = "16:00"; end = "18:00"; warnAt = "15:55"; }
-      # { name = "evening"; start = "20:00"; end = "22:00"; warnAt = "19:55"; }
+      # { name = "evening"; start = "19:05"; end = "22:00"; warnAt = "19:00"; }
     ];
   };
 
