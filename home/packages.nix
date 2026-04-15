@@ -91,15 +91,6 @@
     lazydocker
     qemu
 
-
-    # Gaming
-    winetricks
-    wineWowPackages.full
-    protontricks
-    fuse-overlayfs
-    bubblewrap
-    dwarfs
-
     # Media
     audiobookshelf
     vlc
