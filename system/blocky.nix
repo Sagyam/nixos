@@ -77,11 +77,10 @@ in
   ## ─────────────────────────────────────────────
   services.resolved = {
     enable = true;
-    # Use Blocky when available, fall back to Cloudflare
-    fallbackDns = [ "1.1.1.1" "1.0.0.1" ];
-    extraConfig = ''
-      DNSStubListener=no
-    '';
+    settings.Resolve = {
+      FallbackDNS = [ "1.1.1.1" "1.0.0.1" ];
+      DNSStubListener = false;
+    };
   };
 
   ## ─────────────────────────────────────────────

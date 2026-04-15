@@ -17,7 +17,6 @@
     cargo
     curl
     diff-so-fancy
-    docker
     doggo
     dua
     duf
@@ -34,7 +33,6 @@
     hey
     httpie
     jq
-    lazydocker
     lazygit
     lazyjournal
     neovim
@@ -89,10 +87,10 @@
     terraform
 
     # Container tools
+    docker
+    lazydocker
     qemu
 
-    #Ollama
-    ollama
 
     # Gaming
     winetricks
@@ -116,5 +114,6 @@
     # Experimental
     claude-code
     opencode
+    ollama
   ];
 }
