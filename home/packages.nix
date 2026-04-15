@@ -109,11 +109,5 @@
     nerdfetch
     sql-studio
     systemctl-tui
-
-
-    # Experimental
-    claude-code
-    opencode
-    ollama
   ];
 }
