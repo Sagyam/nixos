@@ -22,6 +22,7 @@
     duf
     eza
     fastfetch
+    ffmpeg
     fzf
     gcc
     gh
@@ -78,6 +79,7 @@
 
     # Node.js ecosystem
     bun
+    nodejs_24
 
     # Kubernetes tools
     k9s

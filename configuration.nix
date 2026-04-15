@@ -38,6 +38,7 @@
 
   # Enable flatpak support
   services.flatpak.enable = true;
+  services.ollama.enable = true;
 
   # Enable garbage collection
   nix.gc = {
