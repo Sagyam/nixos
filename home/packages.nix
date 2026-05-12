@@ -81,6 +81,10 @@
     bun
     nodejs_24
 
+    # Hermes Related
+    python314
+    signal-cli
+
     # Kubernetes tools
     k9s
     kubernetes
@@ -101,6 +105,8 @@
     # Utilities
     nerdfetch
     sql-studio
-    systemctl-tui
+    
+    # Gaming
+    wine
   ];
 }
