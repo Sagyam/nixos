@@ -82,8 +82,7 @@
     nodejs_24
 
     # Hermes Related
-    python314
-    signal-cli
+    
 
     # Kubernetes tools
     k9s
