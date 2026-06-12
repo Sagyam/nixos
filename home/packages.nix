@@ -4,7 +4,6 @@
   home.packages = with pkgs; [
     # Browser
     ungoogled-chromium
-    firefox
     tor-browser
 
     # Development tools
@@ -97,7 +96,6 @@
     # Media
     audiobookshelf
     vlc
-    warp
 
     # Utilities
     nerdfetch
