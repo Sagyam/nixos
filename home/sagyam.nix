@@ -16,7 +16,7 @@
   ];
 
   # Basic Home Manager settings
-  home.stateVersion = "25.11";
+  home.stateVersion = "26.05";
 
   # Disable version mismatch warning (using unstable for both)
   home.enableNixpkgsReleaseCheck = false;

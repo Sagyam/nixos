@@ -48,5 +48,5 @@
   };
 
   # Version of the NixOS system
-  system.stateVersion = "25.11";
+  system.stateVersion = "26.05";
 }

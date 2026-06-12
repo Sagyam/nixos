@@ -24,6 +24,12 @@
     enableSSHSupport = true;
   };
 
+  # Enable 32-bit support for graphics (Required for Wine/Proton)
+  hardware.graphics = {
+    enable = true;
+    enable32Bit = true; 
+  };
+
   # Steam (requires system integration for graphics drivers)
   programs.steam = {
     enable = true;

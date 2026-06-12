@@ -10,8 +10,8 @@
       font-size = 16;
 
       # Window appearance
-      background-opacity = 0.8;
-      background-blur = 100;
+      background-opacity = 1.0;
+      background-blur = 0;
       alpha-blending = "native";
       maximize = true;
 

@@ -80,8 +80,6 @@
     # Node.js ecosystem
     bun
     nodejs_24
-
-    # Hermes Related
     
 
     # Kubernetes tools
@@ -106,6 +104,11 @@
     sql-studio
     
     # Gaming
-    wine
+    protonup-qt   # Crucial: Manages custom Proton versions (see below)
+    mangohud      # FPS and system monitoring overlay
+    gamescope     # Micro-compositor (fixes scaling, HDR, and Wayland quirks)
+    # Legacy/Fallback
+    wine64
+    winetricks
   ];
 }
