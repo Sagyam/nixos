@@ -14,17 +14,6 @@
   # Enable Flakes support
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
-
-  # Cachix binary caches for Vicinae
-  nix.settings = {
-    substituters = [
-      "https://cache.nixos.org"
-      "https://vicinae.cachix.org"
-    ];
-
-    trusted-public-keys = [
-      "vicinae.cachix.org-1:1kDrfienkGHPYbkpNj1mWTr7Fm1+zcenzgTizIcI3oc="
-    ];
   };
 
   # Update system automatically

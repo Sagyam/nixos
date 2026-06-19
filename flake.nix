@@ -1,5 +1,5 @@
 {
-  description = "Sagyam's NixOS Configuration with Home Manager and Vicinae";
+  description = "Sagyam's NixOS Configuration with Home Manager";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
@@ -8,14 +8,9 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-
-    vicinae = {
-      url = "github:vicinaehq/vicinae";
-      # IMPORTANT: Do NOT add nixpkgs.follows here (causes cache misses)
-    };
   };
 
-  outputs = { self, nixpkgs, home-manager, vicinae, ... }@inputs: {
+  outputs = { self, nixpkgs, home-manager, ... }@inputs: {
     nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       specialArgs = { inherit inputs; };

@@ -9,10 +9,7 @@
   imports = [
     ./packages.nix
     ./programs/default.nix
-    ./services/vicinae.nix
 
-    # Import Vicinae Home Manager module
-    inputs.vicinae.homeManagerModules.default
   ];
 
   # Basic Home Manager settings
