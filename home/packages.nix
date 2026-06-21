@@ -70,8 +70,7 @@
 
     # Fonts
     intel-one-mono
-    nerd-fonts.sauce-code-pro
-    nerd-fonts.symbols-only
+
 
     # Development environments
     jetbrains-toolbox

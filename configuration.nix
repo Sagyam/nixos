@@ -14,8 +14,6 @@
   # Enable Flakes support
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
-  };
-
   # Update system automatically
   system.autoUpgrade = {
     enable = true;
